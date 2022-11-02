@@ -4,7 +4,7 @@ public class Main {
         printIsLeapYearResult (year,evenYear);
     }
     private static boolean isLeapYear(int year) {
-       return year % 4==0;
+        return (year % 4==0 && year%100!=0);
     }
     private static void printIsLeapYearResult(int year,boolean evenYear) {
         if (evenYear) {

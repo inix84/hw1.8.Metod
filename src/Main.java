@@ -34,8 +34,8 @@ public class Main {
         printResultOS(iOS);
         printResultDeviceYear(YearUntil2015);
     }
-    private static boolean УсловиеСтарья(int clientDeviceYear) {
-        return (clientDeviceYear >= 2015);
+    public static boolean УсловиеСтарья(int clientDeviceYear) {
+                return (clientDeviceYear >= 2022);
     }
     private static boolean УсловиеОС(int clientOS) {
         return (clientOS == 0);
